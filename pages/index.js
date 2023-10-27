@@ -16,18 +16,18 @@ const Posts = ({ posts }) => {
         <div className="flex flex-col space-y-4">
           {posts.map(({ title, slug, date }) => {
             return (
-              <div key={slug} className="w-[350px] sm:w-[500px] mx-auto">
+              <div key={slug} className="w-[350px] mx-auto">
                 <TextLink
                   href={`/posts/${slug}`}
-                  className="flex justify-between items-center"
+                  className="flex-col space-y-2"
                 >
-                  <span className="text-sm sm:text-lg font-bold">{title}</span>
-                  <span className="text-xs font-bold uppercase text-gray-500">
+                  <div className="text-xl font-bold">{title}</div>
+                  <div className="text-sm font-bold uppercase text-gray-500">
                     {format(
                       parse(date, "yyyy-MM-dd", new Date()),
                       "MMM do, yyyy"
                     )}
-                  </span>
+                  </div>
                 </TextLink>
               </div>
             );

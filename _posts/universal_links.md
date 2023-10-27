@@ -24,7 +24,7 @@ touch public/.nojekyll
 mkdir public/.well-known
 ```
 
-When using `create-react-app` files/folders put under the `public` directly will be copied as-is into the build folder. `CNAME` ensures your custom domain persists across deploys, `.nojekyll` ensures dotfiles will be served, and the  `.well-known` directory will house your `apple-app-site-association` config. Here’s how it looks for Stroopwafel I put this in _/public/.well-known/apple-app-site-association_
+When using `create-react-app` files/folders put under the `public` directly will be copied as-is into the build folder. `CNAME` ensures your custom domain persists across deploys, `.nojekyll` ensures dotfiles will be served, and the  `.well-known` directory will house your `apple-app-site-association` config. Here’s how it looks for Stroopwafel.
 
 
 ```json
@@ -41,7 +41,7 @@ When using `create-react-app` files/folders put under the `public` directly will
 }
 ```
 
-Notice how the file doesn't have an extension. That's important.
+Put this in _/public/.well-known/apple-app-site-association_ Notice how the file doesn't have an extension? That's important.
 
 Adjust your `package.json` to ensure dotfiles are uploaded to the `gh-pages` branch.
 
