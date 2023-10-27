@@ -60,9 +60,6 @@ npm run deploy
 
 You can test everything works via [Branch’s  AASA validator](https://branch.io/resources/aasa-validator/)
 
-![](https://paper-attachments.dropboxusercontent.com/s_87A20845FE98C90B442FEA350FD717EAD25AACF749E4D0A4BFFCF02B0D350D42_1698362706352_image.png)
-
-
 Big thanks [to this article](https://realfiction.net/posts/serving-the-well-known-webfinger-from-github-pages/) for the hint about including the `--dotfiles` flag for gh-pages. I noticed the dotfiles weren’t being copied over and wasn’t sure why, happy this article existed and hope others find this quick write up useful as well.
 
 Example Repo: https://github.com/nezaj/stroop-web/tree/main
