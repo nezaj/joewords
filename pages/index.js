@@ -8,7 +8,7 @@ const Posts = ({ posts }) => {
   return (
     <div>
       <Head>
-        <title>Posts</title>
+        <title>{`Joe's Words!`}</title>
         <meta name="description" content="Joe's Personal Blog." />
       </Head>
       <div>
