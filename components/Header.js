@@ -21,7 +21,7 @@ export default function Header({ showHome }) {
     <div className="flex flex-col items-center py-8">
       <Avatar />
       <div className="text-3xl font-bold my-4 text-slate-600">
-        Heya, I'm Joe!
+        {`Heya, I'm Joe!`}
       </div>
       <div className="text-md text-slate-600">
         This is where I share my words
