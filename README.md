@@ -1,5 +1,5 @@
 ## Joewords
-My personal blog!
+My personal blog! [See it live](https://joewords.com)
 
 ## Quickstart
 Make sure you're using a sufficiently high enough version of node or else things won't work as easy
