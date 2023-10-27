@@ -27,11 +27,8 @@ export default function Header({ showHome }) {
         This is where I share my words
       </div>
       {showHome && (
-        <Link
-          href="/"
-          className="text-sm my-4 text-slate-600 hover:text-fuchsia-600"
-        >
-          Home
+        <Link href="/" className="text-4xl mt-6 -mb-6">
+          🏠
         </Link>
       )}
     </div>

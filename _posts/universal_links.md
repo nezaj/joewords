@@ -12,7 +12,7 @@ I’ve used Github Pages for free hosting and wanted to do so again. Getting uni
 **Make a Github Repo + Buy a Custom Domain**
 
 - Make a new hello world repo using `create-react-app` and publish it with `gh-pages`
-- Buy a domain on namecheap, hook it up to your github repo [with this article](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/). Verify you see hello world when you go to your custom domain.
+- Buy a domain. I like namecheap and hooked it up to github [with the help of this article](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/). Verify you see hello world when you go to your custom domain.
 
 **Repo Structure**
 
