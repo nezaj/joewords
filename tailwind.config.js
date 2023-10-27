@@ -37,5 +37,6 @@ module.exports = {
     },
     extend: {},
   },
+  future: { hoverOnlyWhenSupported: true },
   plugins: [require("@tailwindcss/typography")],
 };
