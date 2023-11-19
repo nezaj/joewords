@@ -4,7 +4,7 @@ date: '2023-10-26'
 author: "nezaj"
 ---
 
-I made Stroopwafel, a casual brain game using React Native and InstantDB and wanted to get Universal links working for apple devices. This requires hosting `/.well-known/apple-app-site-association` at the root of a domain. Kind of annoying needing to set up a domain but figured I could use the domain for hosting a landing page for the app itself.
+I made [Stroopwafel](https://stroopwafel.app), a casual brain game using React Native and InstantDB and wanted to get Universal links working for apple devices. This requires hosting `/.well-known/apple-app-site-association` at the root of a domain. Kind of annoying needing to set up a domain but figured I could use the domain for hosting a landing page for the app itself.
 
 
 I’ve used Github Pages for free hosting and wanted to do so again. Getting universal links working though had some gotchas and after some sleuthing via StackOverflow, ChatGPT, and articles was able to get it working. Here’s how I did it, maybe you’ll find it useful too.
@@ -62,6 +62,6 @@ You can test everything works via [Branch’s  AASA validator](https://branch.io
 
 Big thanks [to this article](https://realfiction.net/posts/serving-the-well-known-webfinger-from-github-pages/) for the hint about including the `--dotfiles` flag for gh-pages. I noticed the dotfiles weren’t being copied over and wasn’t sure why, happy this article existed and hope others find this quick write up useful as well.
 
-Example Repo: https://github.com/nezaj/stroop-web/tree/main
+Example Repo: https://github.com/nezaj/stroop-web
 
 
