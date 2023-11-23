@@ -4,7 +4,7 @@ date: '2023-11-23'
 author: "nezaj"
 ---
 
-I'm a big fan of [Paul Graham](https://http://paulgraham.com/) (aka PG) and [YC](https://www.ycombinator.com/). In 2011, I left my management consulting job to learn how to code. It was around this time I discovered PG, YC, and [HN](https://news.ycombinator.com/). I knew I wanted to do my own startup, and PG's words resonated and inspired me.
+I'm a big fan of [Paul Graham](http://paulgraham.com/) (aka PG) and [YC](https://www.ycombinator.com/). In 2011, I left my management consulting job to learn how to code. It was around this time I discovered PG, YC, and [HN](https://news.ycombinator.com/). I knew I wanted to do my own startup, and PG's words resonated and inspired me.
 
 When talking with others about starting a startup or doing YC, I often send PG essays. I've done this so many times that I realized I should just compile a list and share that. So here it is.
 
