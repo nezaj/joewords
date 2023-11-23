@@ -15,6 +15,6 @@ When talking with others about starting a startup or doing YC, I often send PG e
 * [Startups in 13 Sentences](http://paulgraham.com/13sentences.html)
 * [What Startups Are Really Like](http://paulgraham.com/really.html)
 * [Maker's Schedule, Manager's Schedule](http://paulgraham.com/makersschedule.html)
-* [Why YC](http://paulgraham.com/really.html)
+* [Why YC](http://www.paulgraham.com/whyyc.html)
 
 YC was a dream for me, and I'm grateful that I did it with my [best friend](https://stopa.io). I highly encourage folks to [apply](https://www.ycombinator.com/apply/). Even if you're not thinking of doing the program, the application questions are good food for thought.
