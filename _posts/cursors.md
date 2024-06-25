@@ -18,8 +18,8 @@ const db = init({
   appId: "4564aaed-6e6c-46c0-8759-1139eb0c3de8"
 });
 
-export default function InstantCursors({ roomType, roomId, children }) {
-  const room = db.room(roomType, roomId);
+export default function InstantCursors({ roomLabel, children }) {
+  const room = db.room('cursors', roomLabel);
   return (
     <Cursors room={room}>
       {children}
