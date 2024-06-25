@@ -6,7 +6,7 @@ author: "nezaj"
 
 **Tl;DR** You can add multiple cursors to to your website or app using this
 snippet below (what I'm using for this page). To do fancy stuff like customize
-cursor appearance, [you can check out out some more examples]("https://www.instantdb.com/examples#4-custom-cursors")
+cursor appearance, [you can check out out some more examples](https://www.instantdb.com/examples#4-custom-cursors)
 ```javascript
 import { Cursors, init } from '@instantdb/react';
 
