@@ -3,6 +3,7 @@ import parse from "date-fns/parse";
 import Head from "next/head";
 import { getAllSlugs, getHTMLPostBySlug } from "../../lib/posts";
 import { Header } from "../../components";
+import InstantCursors from "../../components/Cursors";
 
 function Prose({ html }) {
   return (
@@ -14,28 +15,30 @@ function Prose({ html }) {
 }
 
 const Post = ({ post }) => {
-  const { title, date, mdHTML } = post;
+  const { title, date, slug, mdHTML } = post;
   return (
     <div>
       <Head>
         <title>{title}</title>
         <meta
           name="description"
-          content="Relational Database, on the client."
+          content="This is where I share my words."
         />
       </Head>
-      <Header showHome={true} />
-      <div>
-        <div className="mx-auto max-w-xl px-4">
-          <div className="mb-4 space-y-2 border-b border-gray-300 py-4">
-            <h1 className="text-3xl font-bold">{title}</h1>
-            <div className="flex justify-between text-xs font-bold uppercase text-gray-500">
-              {format(parse(date, "yyyy-MM-dd", new Date()), "MMM do, yyyy")}
+      <InstantCursors roomId={`${title}-${slug}`}>
+        <Header showHome={true} />
+        <div>
+          <div className="mx-auto max-w-xl px-4">
+            <div className="mb-4 space-y-2 border-b border-gray-300 py-4">
+              <h1 className="text-3xl font-bold">{title}</h1>
+              <div className="flex justify-between text-xs font-bold uppercase text-gray-500">
+                {format(parse(date, "yyyy-MM-dd", new Date()), "MMM do, yyyy")}
+              </div>
             </div>
+            <Prose html={mdHTML} />
           </div>
-          <Prose html={mdHTML} />
         </div>
-      </div>
+      </InstantCursors>
     </div>
   );
 };
